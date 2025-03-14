@@ -1,0 +1,63 @@
+<!-- Ex01. Faça um formulário de cadastro de usuário, o seu formulário deve conter os campos:
+
+- email (type='email')
+- senha (type='password')
+- confirmação da senha (type='password')
+- aceite de termos (type='checkbox')
+
+Lembre-se de colocar um botão de "submit" e um botão de "reset" para limpar o formulário. -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Usuario</title>
+  </head>
+
+  <body>
+    <h1>Cadastro de Usuario</h1>
+    <p>Insira seus dados nos campos abaixo</p>
+
+    <form action="">
+      <div>
+        <label for="nome"> Nome: </label>
+        <input type="text" name="nome" id="nome" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="nome"> Email: </label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="nome"> Senha: </label>
+        <input type="password" name="password" id="password" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="nome"> Confirme de Senha: </label>
+        <input type="password" name="password" id="password" />
+      </div>
+
+      <br />
+
+      <div>
+        <input type="checkbox" name="password" id="password" />
+        <label for="nome"> Aceite os termos* </label> <br />
+        <label for="nome"> * Campos de preenhimento obrigatorio </label>
+      </div>
+
+      <br />
+
+      <button type="submit"> Enviar </button>
+      <button type="reset"> Limpar </button>
+    </form>
+  </body>
+</html>

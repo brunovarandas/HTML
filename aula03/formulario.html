@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concurso Publico</title>
+  </head>
+  <body>
+    <h1>Inscrição - Analista de Sistemas</h1>
+    <p>Concurso para <b>Analista de Sistemas</b> da Prefeitura de BH</p>
+
+    <hr />
+
+    <!-- 
+        Fomulários são definidos pela Tag <form> 
+        A propriedade "action" é o link para onde iremos enviar os dados
+    -->
+    <form action="">
+      <!-- Todo campo, será definido através do conjunto "label" e "input" -->
+      <div style="margin-bottom: 12px">
+        <!-- A propriedade "for" se refere ao ID do input que ele está descrevendo -->
+        <label for="nome"> Nome </label> <br />
+
+        <input type="text" name="nome" id="nome" />
+      </div>
+
+      <div style="margin-bottom: 12px">
+        <label for="email"> Email </label> <br />
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <div style="margin-bottom: 12px">
+        <input type="checkbox" name="termos" id="termos" />
+        <label for="termos"> Aceito os Termos e Condições </label>
+      </div>
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+    </form>
+  </body>
+</html>

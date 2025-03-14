@@ -1,0 +1,90 @@
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+
+    font-family: "Space Mono", monospace;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Header Styles */
+header {
+    height: 10vh;
+    margin: auto;
+    padding-inline: 3rem;
+    max-width: 1440px;
+
+    background-color: #FAFAFA;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+header div#brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navegação */
+header nav, header nav ul {
+    height: 100%;
+}
+
+header nav ul {
+    display: flex;
+}
+
+/* Menu */
+header nav ul li {
+    width: 10rem;
+    display: flex;
+}
+
+header nav ul li a {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    color: white;
+    background-color: black;
+}
+
+/* Main */
+/* Hero Section */
+section#hero {
+    height: 45vh;
+    display: flex;
+    background-color: #FAFAFA;
+
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+section#hero div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    font-size: 12px;
+    max-width: 450px;
+}
+
+section#hero img {
+    height: 250px;
+    align-self: self-end;
+}
